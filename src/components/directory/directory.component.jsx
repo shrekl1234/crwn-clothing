@@ -3,8 +3,7 @@ import "./directory.styles.scss";
 import MenuItem from "../../components/menu-item/menu-items.components";
 
 function Directory(){
-
-  const [section, setSection] = React.useState([
+  const [section] = React.useState([
     {
       title: "hats",
       imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
@@ -33,18 +32,13 @@ function Directory(){
       id: 5,
     },
   ]);
-
-
-
   return(
     <div className="directory-menu">
-
     {
       section.map(section =>(
         <MenuItem key={section.id} title= {section.title.toLocaleUpperCase()} imageUrl={section.imageUrl} size = {section.size} />
       ))
     }
-
     </div>
   );
 };
