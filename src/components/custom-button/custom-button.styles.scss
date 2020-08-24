@@ -15,10 +15,19 @@
     cursor: pointer;
     transition-duration: .3s;
 
+
     &:hover {
         background-color: white;
         color: black;
         border: 1px solid black;
         box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: .5);
+    }
+    &.google-sign-in{
+        background-color: #4285f4;
+        color: white;
+    }
+    &.google-sign-in:hover {
+        background-color: #357ae8;
+        border: none;
     }
 }

@@ -23,8 +23,10 @@
   justify-content: flex-end;
 }
 .header .options .option {
+  color: inherit;
   padding: 10px 15px;
   text-decoration: none;
+  cursor: pointer;
 }
 .header .options .option:hover {
   transition-duration: 0.5s;
