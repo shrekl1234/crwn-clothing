@@ -8,7 +8,6 @@ const Shoppage = () => {
 
   return (
     <div className="">
-      <h1 style={{ textAlign: "center" }}>SHOP</h1>
       {
           collection.map(({id, ...otherCollectionProps}) =>(
              <CollectionPreview key= {collection.id} {...otherCollectionProps} />

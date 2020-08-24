@@ -1,0 +1,32 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.header .logo-container {
+  height: 100%;
+  width: 70px;
+  padding: 25px;
+}
+.header .logo:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+}
+.header .options {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .options .option {
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.header .options .option:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
